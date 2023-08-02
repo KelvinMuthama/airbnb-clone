@@ -1,0 +1,9 @@
+{
+    "cSpell.words": [
+      "latlng",
+      "prismadb"
+    ],
+    "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true
+}
+}
