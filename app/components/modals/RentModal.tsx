@@ -8,6 +8,7 @@ import useRentModal from "@/app/hooks/useRentModal";
 
 import Heading from "../Heading";
 import CategoryInput from "../inputs/CategoryInput";
+import Counter from "../inputs/Counter";
 import CountrySelect from "../inputs/CountrySelect";
 import { categories } from "../navbar/Categories";
 import Modal from "./Modal";
