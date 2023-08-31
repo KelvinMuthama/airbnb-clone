@@ -1,0 +1,10 @@
+{
+    "cSpell.words": [
+      "cloudinary",
+      "latlng",
+      "prismadb"
+    ],
+    "editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true
+}
+}
