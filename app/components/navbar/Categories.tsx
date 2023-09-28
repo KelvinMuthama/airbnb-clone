@@ -105,6 +105,10 @@ const Categories = () => {
 
   const isMainPage = pathname === "/";
 
+  if (!isMainPage) {
+    return null;
+  }
+
   return (
     <Container>
       <div className="pt-4 flex flex-row items-center justify-between overflow-x-auto">
