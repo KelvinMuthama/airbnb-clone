@@ -13,7 +13,6 @@ import Heading from "../Heading";
 import Calendar from "../inputs/Calendar";
 import Counter from "../inputs/Counter";
 import CountrySelect, { CountrySelectValue } from "../inputs/CountrySelect";
-import Map from "../Map";
 import Modal from "./Modal";
 
 enum STEPS {
@@ -38,11 +37,12 @@ const SearchModal = () => {
     key: "selection",
   });
 
-  const map = useMemo(
+  const Map = useMemo(
     () =>
       dynamic(() => import("../Map"), {
         ssr: false,
       }),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [location]
   );
 
